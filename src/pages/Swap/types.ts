@@ -1,0 +1,4 @@
+export enum DISPLAY_STEP_PROGRESS {
+  'ENABLE' = 'ENABLE',
+  'DISABLE' = 'DISABLE'
+}
