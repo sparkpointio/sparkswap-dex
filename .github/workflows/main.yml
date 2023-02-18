@@ -16,7 +16,10 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-
+      - name: Setup node v16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
       - name: Install and Build 🔧
         run: |
           yarn install
@@ -24,7 +27,7 @@ jobs:
           yarn build
 
       - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: build # The folder the action should deploy.
