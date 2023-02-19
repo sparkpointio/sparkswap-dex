@@ -1,9 +1,11 @@
 # 🚀 SparkSwap Interface
-<h1 align=center>
+<h1>
   <img src="https://sparkswap.finance/SparkSwapLogoWithWord.png" />
 </h1>
 
-## This project contains SparkSwap's interface and DEX v2.
+SparkSwap is an automated market maker (“AMM”) that allows two tokens to be exchanged on the Binance Smart Chain (BSC). It is fast, cheap, and allows anyone to participate.
+
+This repo is responsible for the exchange interface of the AMM: https://sparkswap.finance/#/swap
 
 * Landing page
 * Exchange
@@ -16,20 +18,14 @@ To run the application you will need the following:
 * [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 * [React](https://reactjs.org/)
 
-Installation:
-* Clone the repository:
-  * ```$ git clone https://github.com/sparkpointio/sparkswap-dex-v2.git ```
-
-Now go to project folder and run:
-
-```bash
-$ cd sparkswap-dex-v2
-
-# install the dependencies
-$ yarn
-
-# run app
-$ yarn start
+### How to run:
+#### Install the dependencies
+```sh
+yarn
+```
+#### build and start the application
+```sh
+yarn start
 ```
 
 ## :page_with_curl: License
@@ -38,12 +34,11 @@ This project is under the **GNU General Public License**. See the [LICENSE](http
 
 ## :mailbox_with_mail: Get in touch with SparkSwap!
 
-<p align="center">
-  <a href="https://www.linkedin.com/company/sparkpointio/" target="_blank" >
+<ul>
+  <li><a href="https://www.linkedin.com/company/sparkpointio/" target="_blank" >
     LinkedIn
-  </a>
-  <a href="mailto: support@sparkpoint.io" target="_blank" >
+  </a></li>
+  <li><a href="mailto: support@sparkpoint.io" target="_blank" >
     Email
-  </a> 
-  <br/>
-</p>
+  </a></li>
+</ul>
